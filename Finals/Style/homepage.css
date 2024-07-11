@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* <--------Navbar--------> */
+.container-fluid{
+    margin: 0;
+}
+
+.logo{
+    height: 70px;
+}
+
+
+/* <--------Banner--------> */
+
