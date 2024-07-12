@@ -1,10 +1,10 @@
 @font-face {
     font-family: FEU-FONT;
-    src: url(/assets/FEU-FONT.ttf);
+    src: url(/elements/FEU-FONT.ttf);
   }
   @font-face {
     font-family: VarelaRound-Regular;
-    src: url(/assets/VarelaRound-Regular.ttf);
+    src: url(/elements/VarelaRound-Regular.ttf);
   }
   body {
     background-color: rgb(255, 255, 255);
@@ -40,7 +40,7 @@
   .banner {
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(/assets/FEU\ CAMPUS.jpg);
+    rgba(0, 0, 0, 0.5)), url(/e;e,emts/FEU\ CAMPUS.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
