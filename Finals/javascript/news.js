@@ -6,7 +6,7 @@ const indicators = document.querySelectorAll('.uni-news-indicator');
 let index = 0;
 
 const showItem = (index) => {
-    const width = items[0].clientWidth;
+    const width = items[3].clientWidth;
     items.forEach((item, idx) => {
         const offset = (idx - index) * width;
         item.style.transform = `translateX(${offset}px)`;
@@ -18,6 +18,7 @@ const showItem = (index) => {
         } else {
             indicator.classList.remove('active');
         }
+        
     });
 };
 
