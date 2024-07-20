@@ -21,6 +21,10 @@
     border: none;
   }
 
+.nav-link{
+    color: #fff;
+}
+
 .nav-link.dropdown-toggle{
     color:#fff;
 }
@@ -29,6 +33,17 @@
     opacity: .9;
 }
 
+.offcanvas-header{
+    background-image: linear-gradient(to right, #075007, #0a2b05);
+}
+
+.offcanvas-body{
+    background-image: linear-gradient(to right, #075007, #0a2b05);
+}
+
+.btn-close{
+    color: #fff;
+}
 /* <--------Banner--------> */
 .d-block {
     height: 450px ;
